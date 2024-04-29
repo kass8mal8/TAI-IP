@@ -1,0 +1,13 @@
+// colors
+$light-red: #ff004f;
+$white: #fff;
+$black: #080808;
+$lighter-red: #b54769;
+
+// font-family
+@font-face {
+    font-family: 'poppins';
+    src: url('../../assets/font/Poppins-Regular.ttf');
+}
+
+$poppins: poppins;

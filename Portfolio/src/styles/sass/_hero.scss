@@ -1,0 +1,17 @@
+.hero {
+    margin-top: 10%;
+    font-size: 30px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+    .intro {
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    img {
+        filter: blur(4px);
+        margin-top: -5%;
+    }
+}

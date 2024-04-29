@@ -1,0 +1,38 @@
+.header {
+    margin-top: 20px;
+    align-items: center;
+    // height: 100vh;
+    // background-image: url('../../assets/images/me.png');
+    // background-size: cover;
+    // background-position: center;
+
+    ul {
+        list-style: none;
+        display: inline-flex;
+        
+        li {
+            margin-left: 50px;
+
+            a {
+                text-decoration: none;
+                color: $white;
+                position: relative;
+
+                &::after {
+                    content: '';
+                    width: 0;
+                    height: 3px;
+                    background: $light-red;
+                    position: absolute;
+                    left: 0;
+                    bottom: -6px;
+                    transition: 0.5s;
+                }
+
+                &:hover::after {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
