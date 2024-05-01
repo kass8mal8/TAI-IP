@@ -84,7 +84,7 @@ const About = () => {
                     <ul>
                         <li>
                             <span>2023 - Date [Volunteer]</span>
-                            <br/>Undertook volunteering at equity bank's EGF department by helping in<br/>back to school support for scholars and other give activities for the community.
+                            <br/>Undertook volunteering at Equity bank's EGF department by helping in<br/>back to school support for scholars.
                         </li>
                         <li>
                             <span>2022 - 2023 [Freelancer] </span>
