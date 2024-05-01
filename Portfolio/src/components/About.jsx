@@ -22,7 +22,7 @@ const About = () => {
 
     const handleTabOpen = (tabName) => {
         if(tabName === 'skills') {
-            setIsSkill(true)
+            setIsSkill(false)
             setIsEducation(false)
             setIsExperience(false)
         }
@@ -80,15 +80,28 @@ const About = () => {
                     </ul>
                 </Box>
 
-                <Box className='tab-contents'>
+                <Box className={`tab-contents ${isExperience ? 'active-tab' : ''}`}>
                     <ul>
                         <li>
-                            <span> Freelancer </span>
-                            <br/>Developed web apps and backend applictaions as a freelancer.
+                            <span>2023 - Date [Volunteer]</span>
+                            <br/>Undertook volunteering at equity bank's EGF department by helping in<br/>back to school support for scholars and other give activities for the community.
                         </li>
                         <li>
-                            <span> App Development</span>
-                            <br/>Building android apps 
+                            <span>2022 - 2023 [Freelancer] </span>
+                            <br/>Developed web apps and backend applications as a freelancer.
+                        </li>
+                    </ul>
+                </Box>
+
+                <Box className={`tab-contents ${isEducation ? 'active-tab' : ''}`}>
+                    <ul>
+                        <li>
+                            <span> 2021 - 2025 </span>
+                            <br/>Multimedia University of Kenya
+                        </li>
+                        <li>
+                            <span>2017 - 2020</span>
+                            <br/>Friends School Kamusinga
                         </li>
                     </ul>
                 </Box>
