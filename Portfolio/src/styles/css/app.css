@@ -108,6 +108,11 @@
   background: #262626;
   padding: 40px;
   border-radius: 10px;
+  transition: background 0.5s, transform 0.5s;
+}
+.service-card:hover {
+  background-color: #ff004f;
+  transform: translateY(-10px);
 }
 .service-card .card-icon {
   width: 50px;
@@ -129,4 +134,20 @@ body {
 
 .container {
   padding: 10px 7%;
+}
+.container .contact {
+  flex-basis: 35%;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.container .contact .social-icons {
+  color: #ababab;
+  transition: transform 0.5s;
+}
+.container .contact .social-icons:hover {
+  color: #ff004f;
+  transform: translateY(-5px);
+}
+.container .form .input {
+  display: block;
 }

@@ -20,6 +20,9 @@ const Header = () => {
                     <Link to='#'> Services </Link>
                 </li>
                 <li>
+                    <Link to='#'> Portfolio </Link>
+                </li>
+                <li>
                     <Link to='#'> Contact </Link>
                 </li>
             </ul>
